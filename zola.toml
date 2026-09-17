@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://localhost:1111"
+base_url = "https://martywaweru-plc.github.io"
 title = "Marty Waweru"
 theme = "duckquill"
 
