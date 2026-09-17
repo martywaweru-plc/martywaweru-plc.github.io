@@ -5,10 +5,14 @@ theme = "duckquill"
 
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+taxonomies = [
+    { name = "tags", feed = true }
+]
 
 [markdown]
 
@@ -16,4 +20,25 @@ build_search_index = true
 theme = "catppuccin-mocha"
 
 [extra]
-# Put all your custom variables here
+
+styles = [
+    "automation-terminal.css"
+]
+
+# Navigation
+
+[extra.nav]
+links = [
+  { url = "/", name = "Home" },
+  { url = "/projects/", name = "Projects" },
+  { url = "/engineering-notes/", name = "Engineering Notes" },
+  { url = "/resources/", name = "Resources" },
+  { url = "/about/", name = "About" },
+]
+
+# Footer
+
+[extra.footer]
+show_copyright = true
+copyright = "© Martin Waweru, 2026"
+show_powered_by = true

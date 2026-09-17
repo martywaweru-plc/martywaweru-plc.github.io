@@ -1,0 +1,28 @@
+base_url = "http://127.0.0.1:1111"
+
+title = "Marty Waweru"
+description = "Industrial Automation & Control"
+
+theme = "duckquill"
+
+compile_sass = false
+build_search_index = true
+
+taxonomies = [
+    { name = "tags", feed = true }
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
+
+[extra.nav]
+links = [
+    { name = "Home", url = "/" },
+    { name = "Projects", url = "/projects/" },
+    { name = "Engineering Notes", url = "/engineering-notes/" },
+    { name = "Resources", url = "/resources/" },
+    { name = "About", url = "/about/" }
+]
